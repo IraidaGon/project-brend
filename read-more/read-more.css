@@ -1,0 +1,34 @@
+.read-more {
+    background-repeat: no-repeat;
+    background-position: left center;
+    text-align: left;
+    padding: 6px;
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    background-size: 24px;
+    border: none;
+    box-sizing: border-box;
+    background-color: inherit;
+    cursor: pointer;
+    align-items: center;
+}
+
+.read-more__text {
+    vertical-align: middle;
+}
+
+.read-more__image {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    transition: 0.5s;
+}
+.read-more__image--expand {
+    transform: rotate(0deg);
+}
+
+.read-more__image--hide {
+    transform: rotate(180deg);
+}
