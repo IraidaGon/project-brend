@@ -114,7 +114,6 @@ html {
     .brend-stack {
         display: flex;
         padding-left: 24px;
-        max-width: 1050px;
     }
     .read-more {
         display: flex;
@@ -128,6 +127,7 @@ html {
     .brend-stack {
         display: flex;
         padding-left: 32px;
+        max-width: 1050px;
     }
     .read-more {
         display: flex;
